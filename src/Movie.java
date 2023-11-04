@@ -100,7 +100,7 @@ public class Movie {
         return result;
     }
 
-    public static String searchTrailer (String movieID) {
+    private static String searchTrailer (String movieID) {
         String result = "";
         try {
             String url = TRAILER_URL.replace("abcxyz", movieID);
