@@ -1,3 +1,4 @@
+package ProjectPackage;
 import java.net.*;
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -166,8 +167,8 @@ public class Movie {
                 '}';
     }
 
-    public static void main(String args[]) {
-        Movie object = new Movie();
-        System.out.println(object.searchMovie("Iron man"));
-    }
+    // public static void main(String args[]) {
+    //     Movie object = new Movie();
+    //     System.out.println(object.searchMovie("Iron man"));
+    // }
 }
